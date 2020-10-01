@@ -1,5 +1,4 @@
 import React from 'react';
-// import Head from './Components/Head';
 import './Style/main.scss';
 import Nav from './Components/Nav';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
@@ -28,7 +27,7 @@ function App() {
           <Route path='/collectionsDetails/All' component={()=><CollectionCatagories type='All'/>}/>
           <Route path='/collectionsDetails/Classics' component={()=><CollectionCatagories type='Classics'/>}/>
           <Route path='/collectionsDetails/Metal' component={()=><CollectionCatagories type='Metal'/>}/>
-          <Route path='/SearchResults' component={SearchRasult}/>
+          <Route path='/SearchResults' component={SearchResult}/>
           <Route path='/cart' component={Cart}/>
           <Route path='/login' component={Login}/>
           <Route path='/SignUp' component={Signup}/>
