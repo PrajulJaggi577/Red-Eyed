@@ -39,14 +39,6 @@ const Nav =()=>{
             </div>
             <div className='nav_sec'>
                 <ul>
-                    {/* <li>
-                        <select>
-                            <option>inr</option>
-                            <option>usd</option>
-                            <option>cad</option>
-                            <option>aud</option>
-                        </select>
-                    </li> */}
                     <Link to='/login' className='link'><li className='acc'></li></Link>
                     <li className='search' onClick={searchSlide}></li>
                 <Link to='/cart' className='link'><li className='cart'>{number_cart.total_items}</li></Link>
